@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Kidus | Software Builder & Content Creator</title>
+  <meta name="description" content="Portfolio of Kidus: Information Systems student, full-stack and Java web developer, and content creator." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Inter:wght@400;500;600&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <a class="skip" href="#about">Skip to content</a>
+
+  <header class="nav" id="nav">
+    <a href="#home" class="logo">Kidus<span>.</span></a>
+    <button class="nav-toggle" id="nav-toggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="nav-links">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+    </button>
+    <nav id="nav-links" class="nav-links" aria-label="Primary">
+      <a href="#about">About</a>
+      <a href="#build">What I build</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- 1. HERO: card constellation -->
+    <section id="home" class="hero">
+      <div class="aurora" aria-hidden="true"><i></i><i></i></div>
+
+      <div class="stars" aria-hidden="true">
+        <div class="star" style="--l:9;--t:26;--z:60px;--rz:-6deg;--d:1" data-depth="1">
+          <div class="star-float"><div class="star-card"><span class="art art-a"></span><strong>Gondar Plaza Hotel</strong><em>Web</em></div></div>
+        </div>
+        <div class="star" style="--l:91;--t:22;--z:40px;--rz:5deg;--d:0.95" data-depth="0.95">
+          <div class="star-float"><div class="star-card"><span class="art art-b"></span><strong>Hospital System</strong><em>Java / MySQL</em></div></div>
+        </div>
+        <div class="star" style="--l:15;--t:72;--z:-120px;--rz:4deg;--d:0.7" data-depth="0.6">
+          <div class="star-float"><div class="star-card"><span class="art art-c"></span><strong>OPUS Tasks</strong><em>Front-end</em></div></div>
+        </div>
+        <div class="star" style="--l:85;--t:74;--z:-100px;--rz:-5deg;--d:0.7" data-depth="0.6">
+          <div class="star-float"><div class="star-card"><span class="art art-d"></span><strong>AURUM</strong><em>Restaurant site</em></div></div>
+        </div>
+        <div class="star" style="--l:5;--t:52;--z:-60px;--rz:-3deg;--d:0.8" data-depth="0.8">
+          <div class="star-float"><div class="star-card"><span class="art art-e"></span><strong>SMC Academy</strong><em>Education</em></div></div>
+        </div>
+        <div class="star" style="--l:95;--t:50;--z:-50px;--rz:4deg;--d:0.8" data-depth="0.8">
+          <div class="star-float"><div class="star-card"><span class="art art-f"></span><strong>Anime Stream</strong><em>Web app</em></div></div>
+        </div>
+        <div class="star" style="--l:29;--t:12;--z:-240px;--rz:3deg;--d:0.45" data-depth="0.35">
+          <div class="star-float"><div class="star-card"><span class="art art-b"></span><strong>Wrong Person</strong><em>YouTube</em></div></div>
+        </div>
+        <div class="star" style="--l:72;--t:10;--z:-260px;--rz:-4deg;--d:0.45" data-depth="0.35">
+          <div class="star-float"><div class="star-card"><span class="art art-d"></span><strong>Child Growth</strong><em>YouTube</em></div></div>
+        </div>
+        <div class="star" style="--l:31;--t:89;--z:-300px;--rz:-3deg;--d:0.4" data-depth="0.3">
+          <div class="star-float"><div class="star-card"><span class="art art-a"></span><strong>Vibe Coding</strong><em>Ebook</em></div></div>
+        </div>
+        <div class="star" style="--l:68;--t:89;--z:-280px;--rz:3deg;--d:0.4" data-depth="0.3">
+          <div class="star-float"><div class="star-card"><span class="art art-c"></span><strong>Weather Stand</strong><em>Web app</em></div></div>
+        </div>
+      </div>
+
+      <div class="hero-content">
+        <p class="eyebrow scramble" id="hero-eyebrow">Hello, I'm Kidus</p>
+        <h1 class="hero-title" aria-label="I build web apps, systems and content.">
+          <span class="line" aria-hidden="true">I build web</span>
+          <span class="line" aria-hidden="true">apps, systems</span>
+          <span class="line" aria-hidden="true">&amp; <span class="grad">content.</span></span>
+        </h1>
+        <p class="hero-lead">Information Systems student, full-stack and Java web developer, and content creator.</p>
+        <div class="cta">
+          <a class="btn btn-primary" href="#projects" data-magnet>View my work</a>
+          <a class="btn" href="#contact" data-magnet>Get in touch</a>
+        </div>
+      </div>
+
+      <div class="scroll-hint" aria-hidden="true"><span>Scroll</span><i></i></div>
+    </section>
+
+    <!-- 2. MANIFESTO MARQUEE -->
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee-track">
+        <span>Build</span><span class="outline">Ship</span><span>Iterate</span><span class="outline">Create</span><span>Automate</span><span class="outline">Learn</span>
+        <span>Build</span><span class="outline">Ship</span><span>Iterate</span><span class="outline">Create</span><span>Automate</span><span class="outline">Learn</span>
+      </div>
+    </div>
+
+    <!-- 3. ABOUT -->
+    <section id="about" class="section">
+      <div class="container">
+        <p class="eyebrow scramble">01 / About</p>
+        <h2 class="split-h2">Code, systems and stories.</h2>
+        <div class="about-panel">
+          <p>I'm a second-year Information Systems student and a software builder. My work spans full-stack and Java web development, database systems, AI-assisted workflows and automated content production.</p>
+          <p>When I'm not shipping code, I'm building the tools behind my YouTube channels, so that one idea can become a finished piece of content with as little friction as possible.</p>
+          <div class="counters">
+            <div><b class="count" data-to="6">0</b><span>Hotel sites shipped</span></div>
+            <div><b class="count" data-to="2">0</b><span>YouTube channels</span></div>
+            <div><b class="count" data-to="2">0</b><span>Ebooks written</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. WEBGL SIGNATURE -->
+    <section class="webgl-scene" aria-label="Decorative 3D object">
+      <canvas id="gl" aria-hidden="true"></canvas>
+      <div class="orb" aria-hidden="true"></div>
+      <div class="webgl-copy">
+        <p class="eyebrow scramble">02 / Craft</p>
+        <h2 class="split-h2">Where code meets craft.</h2>
+      </div>
+    </section>
+
+    <!-- 5. WHAT I BUILD: pin-scrub, left pin / right swap -->
+    <section id="build" class="pin-swap">
+      <div class="pin-swap-inner container">
+        <div class="left">
+          <p class="eyebrow scramble">03 / What I build</p>
+          <p class="pin-count"><span id="pin-num">01</span> / 04</p>
+          <h2 class="pin-title" id="pin-title">Web &amp; front-end</h2>
+          <p class="pin-body" id="pin-body">Distinct, self-contained sites: six hotel websites, a task manager, a luxury restaurant site and themed weather apps.</p>
+          <div class="pin-progress" aria-hidden="true"><i id="pin-bar"></i></div>
+        </div>
+        <div class="right">
+          <div class="scene is-active" data-title="Web &amp; front-end" data-body="Distinct, self-contained sites: six hotel websites, a task manager, a luxury restaurant site and themed weather apps.">
+            <div class="mock mock-browser">
+              <div class="mock-bar"><i></i><i></i><i></i></div>
+              <div class="mock-hero"></div>
+              <div class="mock-row"><span></span><span></span><span></span></div>
+            </div>
+          </div>
+          <div class="scene" data-title="Full-stack &amp; databases" data-body="Java servlets, JSP and MySQL through JDBC: a hospital registration and appointment system, plus ER design, normalization and SQL.">
+            <div class="mock mock-stack">
+              <div class="node">Servlet</div><div class="link-line"></div>
+              <div class="node">DAO</div><div class="link-line"></div>
+              <div class="node accent">MySQL</div>
+              <pre class="code">SELECT p.name, a.time
+FROM appointments a
+JOIN patients p ON p.id = a.patient_id;</pre>
+            </div>
+          </div>
+          <div class="scene" data-title="Content systems" data-body="Two YouTube channels run on custom prompt generators and master prompt documents that turn a single input into scripts and image prompts.">
+            <div class="mock mock-pipeline">
+              <div class="node">Idea</div><div class="link-line"></div>
+              <div class="node">Script</div><div class="link-line"></div>
+              <div class="node">Prompts</div><div class="link-line"></div>
+              <div class="node accent">Video</div>
+            </div>
+          </div>
+          <div class="scene" data-title="AI-assisted writing" data-body="Long-form ebooks built chapter by chapter with scripted pipelines: a bilingual Forex guide and an 8-chapter Vibe Coding manuscript.">
+            <div class="mock mock-pages">
+              <div class="page p1"><b>Ch 1</b><i></i><i></i><i></i></div>
+              <div class="page p2"><b>Ch 4</b><i></i><i></i><i></i></div>
+              <div class="page p3"><b>Ch 8</b><i></i><i></i><i></i></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 6. PROJECTS: bento -->
+    <section id="projects" class="section">
+      <div class="container">
+        <p class="eyebrow scramble">04 / Projects</p>
+        <h2 class="split-h2">Selected work.</h2>
+        <div class="bento">
+          <article class="card span-lg">
+            <span class="art art-a tall" aria-hidden="true"></span>
+            <span class="tag">Web</span>
+            <h3>Gondar Hotel Websites</h3>
+            <p>A collection of self-contained sites for hotels in Gondar, Ethiopia, each with its own visual identity. Six completed, including Gondar Hills Resort, Roseau Hotel &amp; Spa and Jantekel Hotel.</p>
+            <div class="stack"><span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JavaScript</span></div>
+            <!-- <a class="link" href="YOUR_LINK">Live demo</a> -->
+          </article>
+          <article class="card span-sm">
+            <span class="art art-b" aria-hidden="true"></span>
+            <span class="tag">Full-stack</span>
+            <h3>Hospital Patient Registration</h3>
+            <p>Group project: patient registration and appointment management in Java.</p>
+            <div class="stack"><span class="tag">Java</span><span class="tag">JSP</span><span class="tag">MySQL</span></div>
+          </article>
+          <article class="card span-md">
+            <span class="art art-f" aria-hidden="true"></span>
+            <span class="tag">Web app</span>
+            <h3>Anime Streaming App</h3>
+            <p>A premium anime streaming web app, currently in development, focused on a polished viewing experience.</p>
+            <div class="stack"><span class="tag">JavaScript</span><span class="tag">APIs</span></div>
+          </article>
+          <article class="card span-md">
+            <span class="art art-d" aria-hidden="true"></span>
+            <span class="tag">Front-end</span>
+            <h3>OPUS, AURUM &amp; Weather Apps</h3>
+            <p>A task manager, a luxury restaurant site and two themed weather apps, each a single self-contained HTML file.</p>
+            <div class="stack"><span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JavaScript</span></div>
+          </article>
+          <article class="card span-sm">
+            <span class="art art-e" aria-hidden="true"></span>
+            <span class="tag">Education</span>
+            <h3>SMC Academy</h3>
+            <p>An interactive site that teaches Smart Money Concepts trading.</p>
+            <div class="stack"><span class="tag">HTML</span><span class="tag">JavaScript</span></div>
+          </article>
+          <article class="card span-lg">
+            <span class="art art-c tall" aria-hidden="true"></span>
+            <span class="tag">Content</span>
+            <h3>YouTube Channels &amp; Automation</h3>
+            <p>"Child Growth Channel" and "Wrong Person", supported by custom prompt-generation tools and reusable master prompts for script and image generation.</p>
+            <div class="stack"><span class="tag">AI workflows</span><span class="tag">Automation</span></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 7. CONTACT -->
+    <section id="contact" class="section contact">
+      <div class="container">
+        <p class="eyebrow scramble">05 / Contact</p>
+        <h2 class="split-h2">Let's build something.</h2>
+        <p class="contact-lead">Have a project, a collaboration or just want to say hi? Reach out.</p>
+        <div class="cta">
+          <button class="btn btn-primary" id="copy-email" data-email="your-email@example.com" data-magnet type="button">
+            <span id="copy-label">your-email@example.com</span>
+          </button>
+          <a class="btn" href="https://github.com/your-username" target="_blank" rel="noopener" data-magnet>GitHub</a>
+          <a class="btn" href="https://youtube.com/@your-channel" target="_blank" rel="noopener" data-magnet>YouTube</a>
+        </div>
+        <p class="hint">Click the email to copy it.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; <span id="year"></span> Kidus. Designed from a DESIGN.md spec, built with HTML, CSS, GSAP and Three.js.</p>
+    <span id="end" aria-hidden="true"></span>
+  </footer>
+
+  <div class="toast" id="toast" role="status" aria-live="polite">You made it to the end. Thanks for scrolling.</div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
